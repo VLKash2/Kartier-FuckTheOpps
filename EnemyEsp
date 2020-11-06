@@ -1,3 +1,5 @@
+--Dont Skid | YL 8kartier#8888
+
 local StarterGui = game:GetService("StarterGui")
 local CoreGui = game:GetService("CoreGui")
 
