@@ -27,7 +27,7 @@ TextLabel.TextWrapped = true
 end
 
 game.Players.PlayerAdded:Connect(function(opp)
-	if opp:IsInGroup(2712820)then
+	if opp:IsInGroup(7889535)then
 		opp.CharacterAdded:Connect(function(char)
 			repeat wait() 
 			until char:FindFirstChild("Humanoid")
@@ -39,7 +39,7 @@ game.Players.PlayerAdded:Connect(function(opp)
 end)
 
 for i, opp in pairs(game.Players:GetPlayers()) do
-	if opp:IsInGroup(2712820) then
+	if opp:IsInGroup(7889535) then
 		opp.CharacterAdded:Connect(function(char)
 			repeat wait() 
 			until char:FindFirstChild("Humanoid")
