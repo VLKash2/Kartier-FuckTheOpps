@@ -1,0 +1,277 @@
+local StarterGui = game:GetService("StarterGui")
+local CoreGui = game:GetService("CoreGui")
+
+local notif = function(Title,Message,Lenght,Icon)
+	StarterGui:SetCore("SendNotification",{
+		['Title'] = Title;
+		['Text'] = Message;
+		['Duration'] = Lenght;
+		['Icon'] = Icon;
+	})
+end
+
+-- Juju Fam Esp | Kartier
+
+local function esp(part)
+local BillboardGui = Instance.new("BillboardGui")
+local TextLabel = Instance.new("TextLabel")
+
+BillboardGui.Adornee = part
+BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+BillboardGui.Active = true
+BillboardGui.AlwaysOnTop = true
+BillboardGui.ExtentsOffset = Vector3.new(0, 2, 0)
+BillboardGui.LightInfluence = 1.000
+BillboardGui.Size = UDim2.new(0, 200, 0, 50)
+
+TextLabel.Parent = BillboardGui
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "JuJu Fam (Simps)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 16.000
+TextLabel.TextStrokeTransparency = 0.000
+TextLabel.TextWrapped = true
+end
+
+game.Players.PlayerAdded:Connect(function(opp)
+	if opp:IsInGroup(7889535)then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end)
+
+for i, opp in pairs(game.Players:GetPlayers()) do
+	if opp:IsInGroup(7889535) then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end
+
+--Invision Esp | Kartier
+
+-- Juju Fam Esp | Kartier
+
+local function esp(part)
+	local BillboardGui = Instance.new("BillboardGui")
+	local TextLabel = Instance.new("TextLabel")
+
+	BillboardGui.Adornee = part
+	BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	BillboardGui.Active = true
+	BillboardGui.AlwaysOnTop = true
+	BillboardGui.ExtentsOffset = Vector3.new(0, 2, 0)
+	BillboardGui.LightInfluence = 1.000
+	BillboardGui.Size = UDim2.new(0, 200, 0, 50)
+
+	TextLabel.Parent = BillboardGui
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel.Font = Enum.Font.ArialBold
+	TextLabel.Text = "Invision (Simps)"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 16.000
+	TextLabel.TextStrokeTransparency = 0.000
+	TextLabel.TextWrapped = true
+end
+
+game.Players.PlayerAdded:Connect(function(opp)
+	if opp:IsInGroup(6954679)then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end)
+
+for i, opp in pairs(game.Players:GetPlayers()) do
+	if opp:IsInGroup(6954679) then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end
+
+-- Sinister Esp | Kartier
+
+local function esp(part)
+	local BillboardGui = Instance.new("BillboardGui")
+	local TextLabel = Instance.new("TextLabel")
+
+	BillboardGui.Adornee = part
+	BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	BillboardGui.Active = true
+	BillboardGui.AlwaysOnTop = true
+	BillboardGui.ExtentsOffset = Vector3.new(0, 2, 0)
+	BillboardGui.LightInfluence = 1.000
+	BillboardGui.Size = UDim2.new(0, 200, 0, 50)
+
+	TextLabel.Parent = BillboardGui
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel.Font = Enum.Font.ArialBold
+	TextLabel.Text = "Sinister (Newgen Simps)"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 16.000
+	TextLabel.TextStrokeTransparency = 0.000
+	TextLabel.TextWrapped = true
+end
+
+game.Players.PlayerAdded:Connect(function(opp)
+	if opp:IsInGroup(7290645)then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end)
+
+for i, opp in pairs(game.Players:GetPlayers()) do
+	if opp:IsInGroup(7290645) then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end
+
+--SmokedFam Esp | Kartier
+
+local function esp(part)
+	local BillboardGui = Instance.new("BillboardGui")
+	local TextLabel = Instance.new("TextLabel")
+
+	BillboardGui.Adornee = part
+	BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	BillboardGui.Active = true
+	BillboardGui.AlwaysOnTop = true
+	BillboardGui.ExtentsOffset = Vector3.new(0, 2, 0)
+	BillboardGui.LightInfluence = 1.000
+	BillboardGui.Size = UDim2.new(0, 200, 0, 50)
+
+	TextLabel.Parent = BillboardGui
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel.Font = Enum.Font.ArialBold
+	TextLabel.Text = "SmokedFam (TryHard Retards)"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 16.000
+	TextLabel.TextStrokeTransparency = 0.000
+	TextLabel.TextWrapped = true
+end
+
+game.Players.PlayerAdded:Connect(function(opp)
+	if opp:IsInGroup(6762089)then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end)
+
+for i, opp in pairs(game.Players:GetPlayers()) do
+	if opp:IsInGroup(6762089) then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end
+
+-- _Clusters_ Esp | Kartier
+
+local function esp(part)
+	local BillboardGui = Instance.new("BillboardGui")
+	local TextLabel = Instance.new("TextLabel")
+
+	BillboardGui.Adornee = part
+	BillboardGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	BillboardGui.Active = true
+	BillboardGui.AlwaysOnTop = true
+	BillboardGui.ExtentsOffset = Vector3.new(0, 2, 0)
+	BillboardGui.LightInfluence = 1.000
+	BillboardGui.Size = UDim2.new(0, 200, 0, 50)
+
+	TextLabel.Parent = BillboardGui
+	TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	TextLabel.BackgroundTransparency = 1.000
+	TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+	TextLabel.Size = UDim2.new(0, 200, 0, 50)
+	TextLabel.Font = Enum.Font.ArialBold
+	TextLabel.Text = "SmokedFam (TryHard Retards)"
+	TextLabel.TextColor3 = Color3.fromRGB(255, 0, 0)
+	TextLabel.TextScaled = true
+	TextLabel.TextSize = 16.000
+	TextLabel.TextStrokeTransparency = 0.000
+	TextLabel.TextWrapped = true
+end
+
+game.Players.PlayerAdded:Connect(function(opp)
+	if opp:IsInGroup(7326534)then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end)
+
+for i, opp in pairs(game.Players:GetPlayers()) do
+	if opp:IsInGroup(7326534) then
+		opp.CharacterAdded:Connect(function(char)
+			repeat wait() 
+			until char:FindFirstChild("Humanoid")
+			repeat wait() 
+			until char:FindFirstChild("Head")
+			esp(char:FindFirstChild("Head"))
+		end)
+	end
+end
+
+notif("Notification","Script Made By 8kartier",5,nil)
+wait(2)
+notif("Notification","Esp Will Load when they Reset",5,nil)
